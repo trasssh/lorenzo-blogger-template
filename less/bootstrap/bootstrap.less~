@@ -8,9 +8,6 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
-// CSS Reset
-@import "reset.less";
-
 // Core variables and mixins
 @import "variables.less"; // Modify this for custom colors, font-sizes, etc
 @import "mixins.less";
@@ -40,7 +37,7 @@
 
 // Components: Nav
 @import "navs.less";
-@import "navbar.less";
+//@import "navbar.less";
 @import "breadcrumbs.less";
 @import "pagination.less";
 @import "pager.less";
