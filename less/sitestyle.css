@@ -632,6 +632,7 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .invisible{visibility:hidden;}
 .header-outer{text-align:center;}
 .Header h1{border-bottom:2px groove red;display:inline;}
+.tabs-inner .widget li.selected a,.tabs-inner .widget li a:hover{border-bottom:2px groove red;}
 .carousel-inner{height:345px;}.carousel-inner .item a{text-decoration:none;}
 .carousel-inner .featured_main_header{width:200px;background:white;padding:5px 15px 10px;position:absolute;left:0px;bottom:0px;z-index:1;}.carousel-inner .featured_main_header h2{padding-left:60px;font-size:2em;font-weight:bold;line-height:100%;width:235px;background-color:white;background-color:rgba(255, 255, 255, 0.8);margin:0px;padding-top:20px;position:relative;}
 .carousel-inner .featured_main_header h4{color:black;width:auto;position:relative;left:0px;top:-28px;position:absolute;padding:7px 10px 5px;font-weight:bold;color:black;background:white;text-transform:uppercase;line-height:16px;}
