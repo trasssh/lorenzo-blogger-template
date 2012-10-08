@@ -30,10 +30,7 @@
 }
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
   line-height: 20px;
-  color: #333333;
 }
 a {
   color: #0088cc;
@@ -442,12 +439,6 @@ textarea {
   font-size: 14px;
   font-weight: normal;
   line-height: 20px;
-}
-input,
-button,
-select,
-textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 label {
   display: block;
