@@ -1,0 +1,200 @@
+/* ===== Custom CSS =========================
+ * This is the added css that could not be 
+ * applied through the default framework 
+ * set up.
+ * ========================================== */
+
+.body-fauxcolumns .cap-top {background:none;} /* removes blogger template background */
+
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+/* ===== Header =============================
+ * ========================================== */
+/* Homepage header */
+header {
+  height: 200px;
+  }
+  .header-outer {
+    /*background: brown url(//lh6.googleusercontent.com/-XVhgeh_hHzM/UF6Tj7x7K3I/AAAAAAAALkA/QHUIVnXchCY/s1280/photo.jpg) center center;*/
+    height: 100%;
+    width: 100%;
+    margin-top:19px;
+    margin-bottom:15px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0% 76%;
+    overflow:hidden;
+    border-bottom: 10px solid #C05473;
+    }
+    /* Name logo */
+    #header-inner {
+      padding-top: 30px;
+      text-indent: -99999px;
+      }
+      #header-inner img {
+        /* background: pink;
+        opacity: .75;
+        padding: 3px 10px;
+        border-left:75px solid salmon; */
+}
+
+/* ===== Navigation =====================
+ * ====================================== */
+#crosscol {
+  background:#1E1B22;
+  margin: 0px;
+  padding: 10px 20px 15px;
+}
+.tabs-outer {
+  margin-top: 35px;
+  }
+  .tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {border-bottom:1px solid;}
+  .tabs-inner .widget li a:hover {
+    transition: ease-in-out .25s;
+   -moz-transition: ease-in-out .25s;
+   -webkit-transition: ease-in-out .25s;
+}
+
+/* search */
+#CustomSearch1 {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 660px;
+  float:right;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  }
+  #CustomSearch1 input {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* ----- Hero-unit -----
+ * --------------------- */
+.hero-unit {
+  height: 400px;
+  }
+  /* tabs */
+  .hero-unit .nav-tabs {
+    border-bottom: 1px solid #DDD;
+  }
+  #myTab {
+    padding-top:0px;
+    margin-top:-50px;
+    margin-bottom:40px;
+    }
+    #myTab a {color: #141414;}
+    #myTab > .active > a {
+      border-color:#DDD;
+  }
+  #myTab a {padding-top: 8px; margin-bottom:-3px}
+  .tab-content {
+    background: url(//lh4.googleusercontent.com/-ffV_yUmH4AU/UI2gXqCyLyI/AAAAAAAAL6k/CrCsX3kFv_A/s640/spotlight-bg2.png) 75px 0px no-repeat;
+    height: 420px;
+}
+
+/* ===== Social Nets ========
+ * ========================== */
+.well.well-small.span8 {margin-left:0px;}
+.breadcrumb.span6 {
+  margin-top: 5px;
+}
+.breadcrumb.span6 .divider {
+  border-left:1px dotted;
+  height:30px
+}
+.breadcrumb.span6 li {
+  border-top:0px transparent;
+  margin-right:10px;
+}
+
+/* ==== Sign in forms =========== 
+ * ============================== */
+.mc-field-group.input-prepend {margin-left: 10px;}
+.asterisk {
+  color: #C60;
+  font-weight: bold;
+}
+
+/* ===== Posts ==============
+ * ========================== */
+.status-msg-wrap {display:none;} /* remove label posts message */
+h3.post-title a {
+  color: #434343;
+}
+
+/* ===== Sections ===============
+ * ============================== */
+.thumbnail {background:#FFF;}
+
+
+/* ===== Feed Boxes =============
+ * ============================ */
+.widget ul li, .widget #ArchiveList ul.flat li {
+  border-top: 1px dotted #AAA;
+}
+#Feed2_feedItemListDisplay .item-title a,
+#Feed3_feedItemListDisplay .item-title a {
+  font-size: 24px;
+  letter-spacing: -0.25px;
+  }
+  #Feed2_feedItemListDisplay .item-title a::after,
+  #Feed3_feedItemListDisplay .item-title a::after {
+    content: " \00BB";
+    font-weight: normal;
+    font-weight: 300;
+}
+/* Footer
+ * -------------- */
+.well.well-black {
+  background: black;
+  border-color: #141414;
+}
+
+/* Buttons 
+ * --------------- */
+a.btn-info,
+a.btn-inverse {
+  color:#FFF;
+  }
+  .btn i {
+    margin-top:2px;
+  }
+/* album download button */
+.btn.btn-large.btn-success span {
+  font-weight: bold;
+  color: white;
+}
+.btn.btn-large.btn-success small {
+  color: #B5E786;
+}
+
+/* ===== Albums Page ================
+ * ================================== */
+
+/* album titles */
+.inline_player #maintext {
+  width: 350px !important;
+}
+
+/* ===== Footer 
+ * ================================== */
+footer {border-top:10px solid #141414;}
+
+/* ===== Added Mobile setting =======
+ * ================================== */
+.mobile .Blog {display:block !important;} /* shows blog posts on mobile homepage */
+
+/* mobile nav */
+.mobile #crosscol {
+  background:salmon;
+  margin: 0px;
+  padding: 0px;
+  position: static;
+}
