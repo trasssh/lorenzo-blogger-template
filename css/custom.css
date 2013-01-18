@@ -4,16 +4,26 @@
  * set up.
  * ========================================== */
 
-.body-fauxcolumns .cap-top {background:none;} /* removes blogger template background */
-
+/* Type 
+ * -------------------------- */
 h1, h2, h3, h4, h5, h6 {
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
     font-weight: normal;
 }
 
-/* ===== Header =============================
+/* Blogger body 
+ * -------------------------- */
+
+/* Removes blogger template birds background image */
+.body-fauxcolumns .cap-top {background:none;} 
+
+/* Fixed gap from hidden blogger bar */
+#navbar {display: none;}
+
+/* ===== Page header ========================
+ * Set up for the sites page headers.
+ * This does not include the images.
  * ========================================== */
-/* Homepage header */
 header {
   height: 200px;
   }
@@ -22,9 +32,9 @@ header {
     width: 100%;
     margin-bottom: 15px;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     background-position: 0% 75%;
     overflow: hidden;
     border-bottom: 10px solid #C05473;
@@ -35,39 +45,46 @@ header {
       text-indent: -99999px;
 }
 
-/* ===== Navigation =====================
- * ====================================== */
+/* ===== Navigation ===========================================================
+ * Navigation using blogger's <.PageList> feature in the blog custumize set up. 
+ * Most of the set up for this should be done in the custom template set up. 
+ * This just adds a few design features that could not be done there. And adds 
+ * the <.affix> set-up for the scrolling navigation feature.
+ *
+ * .selected        - Underlines current navigation page.
+ * :hover           - Adds a border bottom & css3 ease-in-out.
+ * ============================================================================ */
 .tabs-outer {
-  margin-top: 35px;
+  margin-top: 35px; /* moves it down from header per design */
   }
-  .tabs-inner .PageList .widget-content {height: 30px;}
+  .tabs-inner .PageList .widget-content {height: 30px;} /* fixes border hover changing it's height */
   .tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {border-bottom:1px solid;}
   .tabs-inner .widget li a:hover {
-    transition: ease-in-out .25s;
-   -moz-transition: ease-in-out .25s;
    -webkit-transition: ease-in-out .25s;
+      -moz-transition: ease-in-out .25s;
+           transition: ease-in-out .25s;
 }
 /* settings for navigation while scrolling */
-.affix {
-  z-index: 9999;
-  background: whiteSmoke !important;
-  width: 975px;
+#PageList1 {z-index: 10000;} /* IE fix for z-index */
+#PageList1 .affix {
+  width: 100%;
   top: 2px;
+  left: 0;
   padding: 5px;
-  margin-left: -24px !important;
-  
+  background: white;
+  /*z-index: 9999;*/
   box-shadow: 0px 3px 3px -2px #333333;
+  }
+  #PageList1 .affix ul {
+    margin: 0 auto;
+    width: 900px;
 }
 
 /* search */
 #CustomSearch1 {
+  margin-top: -25px;
+  margin-left: 610px;
   width: 300px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  margin-left: 660px;
-  float:right;
-  position: relative;
-  top: -60px;
   z-index: 9999;
   }
   #CustomSearch1 input {
@@ -77,13 +94,11 @@ header {
 
 /* ----- Hero-units -----
  * --------------------- */
-.hero-unit {
-  /*background: url(https://lh6.googleusercontent.com/-pTLuWUqkjdM/UNfSFy7dQtI/AAAAAAAAMk4/f9-NcXB4cRI/s200/nasty_fabric-50.png);*/
-  background: url(https://lh6.googleusercontent.com/-DIvV3SBtTtQ/UN-6UUbP9wI/AAAAAAAAMp0/Db3pR-ikP9U/s960/photo.jpg) left bottom no-repeat;
+.albums-section.hero-unit {
   height: 500px;
-  padding-top: 10px !important;
   color: white;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);
+  background: url(https://lh6.googleusercontent.com/-DIvV3SBtTtQ/UN-6UUbP9wI/AAAAAAAAMp0/Db3pR-ikP9U/s960/photo.jpg) left bottom no-repeat;
   }
   .hero-unit h1 {text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);}
   .spot-albums-header,
@@ -99,11 +114,15 @@ header {
     margin-top:-50px;
     margin-bottom:40px;
     }
-    #myTab a {color: #141414;}
+    #myTab a {
+      padding-top: 8px; 
+      margin-bottom:-3px;
+      color: #141414;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    }
     #myTab > .active > a {
       border-color:#DDD;
   }
-  #myTab a {padding-top: 8px; margin-bottom:-3px}
   .tab-content {
     height: 520px;
 }
@@ -114,23 +133,28 @@ header {
 /* Singles Unit
  * --------------- */
 .singles-section {
-    background: url(https://lh4.googleusercontent.com/-O2hJVzLNJeI/UN-CaVClDUI/AAAAAAAAMpQ/syTz5F_5hHE/s960/poll-stencil-dark-overlay.png) left -250px no-repeat;
+    /*background: url(https://lh4.googleusercontent.com/-O2hJVzLNJeI/UN-CaVClDUI/AAAAAAAAMpQ/syTz5F_5hHE/s960/poll-stencil-dark-overlay.png) left -250px no-repeat;*/
 }
 
 /* ===== Social Nets ========
  * ========================== */
-.well.well-small.span8 {margin-left:0px;}
-.breadcrumb.span6 {
-  margin-top: 5px;
-}
-.breadcrumb.span6 .divider {
-  border-left:1px dotted;
-  height:30px
-}
-.breadcrumb.span6 li {
-  border-top:0px transparent;
-  margin-right:10px;
-}
+.social-icons {margin-left:0px;}
+  .social-icons h2 {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .social-icons .divider {
+    border-left:1px dotted;
+    height:30px
+  }
+  .social-icons .breadcrumb {
+    margin-top: 5px;
+    background: transparent;
+    }
+    .social-icons .breadcrumb li {
+      border-top:0px transparent;
+      margin-right:10px;
+    }
 
 /* ==== Sign in forms =========== 
  * ============================== */
@@ -174,14 +198,17 @@ h3.post-title a {
 .albums-players-grande {
   margin-bottom: 25px;
 }
-/* Album descriptions
- * -------------- */
-.span3.jhtlyk-description,
-.span3.bazar-description,
-.span3.solamente-description,
-.span3.schematic-description {
-  width: 270px;
+/* Album descriptions */
+.albums-players-grande .album-description {width: 270px;}
+
+/* ===== Singles page =====
+ * ======================= */
+.single-players-grande {
+  margin-bottom: 25px;
 }
+/* Single descriptions */
+.single-players-grande .single-description {width: 270px;}
+
 /* Footer
  * -------------- */
 .well.well-black {
@@ -235,5 +262,11 @@ footer h2 {text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);}
   margin-right: 0px;
   margin-left: 0px;
 }
+/* remove scrolling nav from mobile. */
+.mobile #PageList1 .affix {
+  position: static;
+}
 /* removes clear icon that still displays for search field in mobile - Found this in the widget editor, which gave me the idea */
 .mobile div.gsc-clear-button {display:none !important;}
+
+/* **end custom css** */
