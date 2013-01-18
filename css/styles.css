@@ -1,4 +1,4 @@
-/* move down carets for tabs */
+/* Nav bar */
 /* ===== Tom Ray Rules! ===============================================
  * ==================================================================== */
 .clearfix {
@@ -3207,7 +3207,6 @@ input[type="submit"].btn.btn-mini {
   border-top-color: #005580;
   border-bottom-color: #005580;
 }
-/* move down carets for tabs */
 .nav-tabs .dropdown-toggle .caret {
   margin-top: 8px;
 }
