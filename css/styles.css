@@ -1,4 +1,4 @@
-/* divider image */
+/* Removes blogger template birds background image */
 /* ===== Tom! Ray Rules! ===============================================
  * ==================================================================== */
 .clearfix {
@@ -4436,7 +4436,312 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
-/* ===== Tom Ray Rules! ======================
+/* ===== Custom CSS =========================
+ * This is the added css that could not be 
+ * applied through the default framework 
+ * set up.
+ * ========================================== */
+/* Type 
+ * -------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  font-weight: normal;
+}
+/* Blogger body 
+ * -------------------------- */
+/* Removes blogger template birds background image */
+.body-fauxcolumns .cap-top {
+  background: none;
+}
+/* Fixed gap from hidden blogger bar */
+#navbar {
+  display: none;
+}
+/* ===== Page header ========================
+ * Set up for the sites page headers.
+ * This does not include the images.
+ * ========================================== */
+header {
+  height: 200px;
+}
+.header-outer {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 0% 75%;
+  overflow: hidden;
+  border-bottom: 10px solid #C05473;
+}
+/* Name logo */
+#header-inner {
+  padding-top: 30px;
+  text-indent: -99999px;
+}
+/* ===== Navigation ===========================================================
+ * Navigation using blogger's <.PageList> feature in the blog custumize set up. 
+ * Most of the set up for this should be done in the custom template set up. 
+ * This just adds a few design features that could not be done there. And adds 
+ * the <.affix> set-up for the scrolling navigation feature.
+ *
+ * .selected        - Underlines current navigation page.
+ * :hover           - Adds a border bottom & css3 ease-in-out.
+ * ============================================================================ */
+.tabs-outer {
+  margin-top: 35px;
+  /* moves it down from header per design */
+
+}
+.tabs-inner .PageList .widget-content {
+  height: 30px;
+}
+/* fixes border hover changing it's height */
+.tabs-inner .widget li.selected a,
+.tabs-inner .widget li a:hover {
+  border-bottom: 1px solid;
+}
+.tabs-inner .widget li a:hover {
+  -webkit-transition: ease-in-out 0.25s;
+  -moz-transition: ease-in-out 0.25s;
+  transition: ease-in-out 0.25s;
+}
+/* settings for navigation while scrolling */
+#PageList1 {
+  z-index: 10000;
+}
+/* IE fix for z-index */
+#PageList1 .affix {
+  width: 100%;
+  top: 2px;
+  left: 0;
+  padding: 20px 5px;
+  background: white;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.03);
+}
+#PageList1 .affix ul {
+  margin: 0 auto;
+  width: 900px;
+}
+/* search */
+#CustomSearch1 {
+  margin-top: -25px;
+  margin-left: 610px;
+  width: 300px;
+  z-index: 9999;
+}
+#CustomSearch1 input {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* ----- Hero-units -----
+ * --------------------- */
+.albums-section.hero-unit {
+  height: 500px;
+  color: white;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);
+  background: url(https://lh6.googleusercontent.com/-DIvV3SBtTtQ/UN-6UUbP9wI/AAAAAAAAMp0/Db3pR-ikP9U/s960/photo.jpg) left bottom no-repeat;
+}
+.hero-unit h1 {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);
+}
+.spot-albums-header,
+.singles-header {
+  margin-bottom: 20px;
+}
+/* tabs */
+.hero-unit .nav-tabs {
+  border-bottom: 1px solid #DDD;
+}
+#myTab {
+  padding-top: 0px;
+  margin-top: -50px;
+  margin-bottom: 40px;
+}
+#myTab a {
+  padding-top: 8px;
+  margin-bottom: -3px;
+  color: #141414;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+#myTab > .active > a {
+  border-color: #DDD;
+}
+.tab-content {
+  height: 520px;
+}
+/* spotlight button icons */
+.btn.btn-large.btn-success [class^="icon-"] {
+  margin-top: 5px;
+}
+/* Singles Unit
+ * --------------- */
+.singles-section {
+  /*background: url(https://lh4.googleusercontent.com/-O2hJVzLNJeI/UN-CaVClDUI/AAAAAAAAMpQ/syTz5F_5hHE/s960/poll-stencil-dark-overlay.png) left -250px no-repeat;*/
+
+}
+/* ===== Social Nets ========
+ * ========================== */
+.social-icons {
+  margin-left: 0px;
+}
+.social-icons h2 {
+  font-size: 20px;
+  line-height: 1;
+}
+.social-icons .divider {
+  border-left: 1px dotted;
+  height: 30px;
+}
+.social-icons .breadcrumb {
+  margin-top: 5px;
+  background: transparent;
+}
+.social-icons .breadcrumb li {
+  border-top: 0px transparent;
+  margin-right: 10px;
+}
+.social-icons img {
+  opacity: .5;
+}
+.social-icons img:hover {
+  opacity: 1;
+}
+/* ==== Sign in forms =========== 
+ * ============================== */
+.mc-field-group.input-prepend {
+  margin-left: 10px;
+}
+.asterisk {
+  color: #C60;
+  font-weight: bold;
+}
+/* ===== Posts ==============
+ * ========================== */
+.status-msg-wrap {
+  display: none;
+}
+/* remove label posts message */
+h3.post-title a {
+  color: #434343;
+}
+/* ===== Sections ===============
+ * ============================== */
+.thumbnail {
+  background: #FFF;
+}
+/* ===== Feed Boxes =============
+ * ============================ */
+.widget ul li,
+.widget #ArchiveList ul.flat li {
+  border-top: 1px dotted #AAA;
+}
+#Feed2_feedItemListDisplay .item-title a,
+#Feed3_feedItemListDisplay .item-title a {
+  font-size: 24px;
+  letter-spacing: -0.25px;
+}
+#Feed2_feedItemListDisplay .item-title a::after,
+#Feed3_feedItemListDisplay .item-title a::after {
+  content: " \00BB";
+  font-weight: normal;
+  font-weight: 300;
+}
+/* ===== Albums page =====
+ * ======================= */
+.albums-players-grande {
+  margin-bottom: 25px;
+}
+/* Album descriptions */
+.albums-players-grande .album-description {
+  width: 270px;
+}
+/* ===== Singles page =====
+ * ======================= */
+.single-players-grande {
+  margin-bottom: 25px;
+}
+/* Single descriptions */
+.single-players-grande .single-description {
+  width: 270px;
+}
+/* ===== Photos page ======
+ * ======================== */
+/* photo spacing for the gallery page */
+#my-photos li {
+  width: 176px;
+}
+/* Footer
+ * -------------- */
+.well.well-black {
+  background: black;
+  border-color: #141414;
+}
+/* Buttons 
+ * --------------- */
+a.btn-info,
+a.btn-inverse {
+  color: #FFF;
+}
+.btn i {
+  margin-top: 2px;
+}
+/* album download button */
+.btn.btn-large.btn-success span {
+  font-weight: bold;
+  color: white;
+}
+.btn.btn-large.btn-success small {
+  color: #B5E786;
+}
+/* mini-buttons with icons alignment fix */
+.btn-mini i {
+  margin-top: 0px;
+}
+/* ===== Albums Page ================
+ * ================================== */
+/* album titles */
+.inline_player #maintext {
+  width: 350px !important;
+}
+/* ===== Footer 
+ * ================================== */
+footer {
+  border-top: 10px solid #141414;
+}
+footer h2 {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);
+}
+/* ===== Added Mobile setting =======
+ * ================================== */
+.mobile .Blog {
+  display: block !important;
+}
+/* shows blog posts on mobile homepage */
+/* mobile nav */
+.mobile #PageList1 {
+  background: salmon;
+  margin-top: -15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+/* remove scrolling nav from mobile. */
+.mobile #PageList1 .affix {
+  position: static;
+}
+/* removes clear icon that still displays for search field in mobile - 
+ * Found this in the widget editor, which gave me the idea */
+.mobile div.gsc-clear-button {
+  display: none !important;
+}
+/* **end custom css** *//* ===== Tom Ray Rules! ======================
  * =========================================== */
 .navbar {
   margin-top: 20px;
