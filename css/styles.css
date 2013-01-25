@@ -4726,7 +4726,7 @@ footer h2 {
 }
 /* shows blog posts on mobile homepage */
 /* mobile nav */
-.mobile #PageList1 {
+.mobile #PageList1_select {
   background: salmon;
   margin-top: -15px;
   margin-right: 0px;
