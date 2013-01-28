@@ -4637,25 +4637,6 @@ h3.post-title a {
 .thumbnail {
   background: #FFF;
 }
-/* ===== Feed Boxes =============
- * ============================ */
-.widget ul li,
-.widget #ArchiveList ul.flat li {
-  border-top: 1px dotted #AAA;
-}
-#Feed2_feedItemListDisplay .item-title a,
-#Feed3_feedItemListDisplay .item-title a,
-#Feed4_feedItemListDisplay .item-title a {
-  font-size: 24px;
-  letter-spacing: -0.25px;
-}
-#Feed2_feedItemListDisplay .item-title a::after,
-#Feed3_feedItemListDisplay .item-title a::after,
-#Feed4_feedItemListDisplay .item-title a::after {
-  content: " \00BB";
-  font-weight: normal;
-  font-weight: 300;
-}
 /* ===== Albums page =====
  * ======================= */
 .albums-players-grande {
@@ -4685,6 +4666,29 @@ h3.post-title a {
 .well.well-black {
   background: black;
   border-color: #141414;
+}
+/* ===== Feed Boxes =============
+ * ============================ */
+#Feed4 {
+  background: black;
+  border-color: #141414;
+}
+.widget ul li,
+.widget #ArchiveList ul.flat li {
+  border-top: 1px dotted #AAA;
+}
+#Feed2_feedItemListDisplay .item-title a,
+#Feed3_feedItemListDisplay .item-title a,
+#Feed4_feedItemListDisplay .item-title a {
+  font-size: 24px;
+  letter-spacing: -0.25px;
+}
+#Feed2_feedItemListDisplay .item-title a::after,
+#Feed3_feedItemListDisplay .item-title a::after,
+#Feed4_feedItemListDisplay .item-title a::after {
+  content: " \00BB";
+  font-weight: normal;
+  font-weight: 300;
 }
 /* Buttons 
  * --------------- */
