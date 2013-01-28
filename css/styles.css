@@ -1,5 +1,4 @@
-/* ===== Tom Ray Rules! ======================
- * ========================================== */
+/* Removes blogger template birds background image */
 /* ===== Tom! Ray Rules! ===============================================
  * ==================================================================== */
 .clearfix {
@@ -4536,7 +4535,7 @@ header {
   margin-top: -25px;
   margin-left: 610px;
   width: 300px;
-  z-index: 99999;
+  z-index: 9999;
 }
 #CustomSearch1 input {
   margin-top: 0px;
@@ -4745,8 +4744,7 @@ footer h2 {
 .mobile div.gsc-clear-button {
   display: none !important;
 }
-/* **end custom css** */
-/* ===== Tom Ray Rules! ======================
+/* **end custom css** *//* ===== Tom Ray Rules! ======================
  * =========================================== */
 .navbar {
   margin-top: 20px;
