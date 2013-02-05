@@ -1,5 +1,6 @@
-/* move down carets for tabs */
-/* ===== Tom Ray Rules! ===============================================
+/* ===== Tom Ray Rules! ======================
+ * ========================================== */
+/* ===== Tom! Ray Rules! ===============================================
  * ==================================================================== */
 .clearfix {
   *zoom: 1;
@@ -361,6 +362,224 @@ a:hover {
 }
 .container-fluid:after {
   clear: both;
+}
+p {
+  margin: 0 0 10px;
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+small {
+  font-size: 85%;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+cite {
+  font-style: normal;
+}
+.muted {
+  color: #999999;
+}
+.text-warning {
+  color: #c09853;
+}
+.text-error {
+  color: #b94a48;
+}
+.text-info {
+  color: #3a87ad;
+}
+.text-success {
+  color: #468847;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: normal;
+  line-height: 1;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+h1 {
+  font-size: 36px;
+  line-height: 40px;
+}
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+}
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+}
+h6 {
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 small {
+  font-size: 24px;
+}
+h2 small {
+  font-size: 18px;
+}
+h3 small {
+  font-size: 14px;
+}
+h4 small {
+  font-size: 14px;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 20px 0 30px;
+  border-bottom: 1px solid #eeeeee;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+li {
+  line-height: 20px;
+}
+ul.unstyled,
+ol.unstyled {
+  margin-left: 0;
+  list-style: none;
+}
+dl {
+  margin-bottom: 20px;
+}
+dt,
+dd {
+  line-height: 20px;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 10px;
+}
+.dl-horizontal {
+  *zoom: 1;
+}
+.dl-horizontal:before,
+.dl-horizontal:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.dl-horizontal:after {
+  clear: both;
+}
+.dl-horizontal dt {
+  float: left;
+  width: 160px;
+  clear: left;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dl-horizontal dd {
+  margin-left: 180px;
+}
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #ffffff;
+}
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #999999;
+}
+abbr.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eeeeee;
+}
+blockquote p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+blockquote small {
+  display: block;
+  line-height: 20px;
+  color: #999999;
+}
+blockquote small:before {
+  content: '\2014 \00A0';
+}
+blockquote.pull-right {
+  float: right;
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eeeeee;
+  border-left: 0;
+}
+blockquote.pull-right p,
+blockquote.pull-right small {
+  text-align: right;
+}
+blockquote.pull-right small:before {
+  content: '';
+}
+blockquote.pull-right small:after {
+  content: '\00A0 \2014';
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+address {
+  display: block;
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 20px;
 }
 code,
 pre {
@@ -2989,7 +3208,6 @@ input[type="submit"].btn.btn-mini {
   border-top-color: #005580;
   border-bottom-color: #005580;
 }
-/* move down carets for tabs */
 .nav-tabs .dropdown-toggle .caret {
   margin-top: 8px;
 }
@@ -3240,10 +3458,6 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   margin-bottom: 0;
   padding: 4px 14px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  font-weight: normal;
-  line-height: 1;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -4164,196 +4378,6 @@ a.badge:hover {
 .btn-mini .badge {
   top: 0;
 }
-@-webkit-keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-@-moz-keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-@-ms-keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-@-o-keyframes progress-bar-stripes {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 40px 0;
-  }
-}
-@keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-.progress {
-  overflow: hidden;
-  height: 20px;
-  margin-bottom: 20px;
-  background-color: #f7f7f7;
-  background-image: -moz-linear-gradient(top, #f5f5f5, #f9f9f9);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f9f9f9));
-  background-image: -webkit-linear-gradient(top, #f5f5f5, #f9f9f9);
-  background-image: -o-linear-gradient(top, #f5f5f5, #f9f9f9);
-  background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#fff9f9f9', GradientType=0);
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-}
-.progress .bar {
-  width: 0%;
-  height: 100%;
-  color: #ffffff;
-  float: left;
-  font-size: 12px;
-  text-align: center;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #0e90d2;
-  background-image: -moz-linear-gradient(top, #149bdf, #0480be);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#149bdf), to(#0480be));
-  background-image: -webkit-linear-gradient(top, #149bdf, #0480be);
-  background-image: -o-linear-gradient(top, #149bdf, #0480be);
-  background-image: linear-gradient(to bottom, #149bdf, #0480be);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff0480be', GradientType=0);
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: width 0.6s ease;
-  -moz-transition: width 0.6s ease;
-  -o-transition: width 0.6s ease;
-  transition: width 0.6s ease;
-}
-.progress .bar + .bar {
-  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-}
-.progress-striped .bar {
-  background-color: #149bdf;
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  -webkit-background-size: 40px 40px;
-  -moz-background-size: 40px 40px;
-  -o-background-size: 40px 40px;
-  background-size: 40px 40px;
-}
-.progress.active .bar {
-  -webkit-animation: progress-bar-stripes 2s linear infinite;
-  -moz-animation: progress-bar-stripes 2s linear infinite;
-  -ms-animation: progress-bar-stripes 2s linear infinite;
-  -o-animation: progress-bar-stripes 2s linear infinite;
-  animation: progress-bar-stripes 2s linear infinite;
-}
-.progress-danger .bar,
-.progress .bar-danger {
-  background-color: #dd514c;
-  background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#c43c35));
-  background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);
-  background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
-  background-image: linear-gradient(to bottom, #ee5f5b, #c43c35);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffc43c35', GradientType=0);
-}
-.progress-danger.progress-striped .bar,
-.progress-striped .bar-danger {
-  background-color: #ee5f5b;
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-success .bar,
-.progress .bar-success {
-  background-color: #5eb95e;
-  background-image: -moz-linear-gradient(top, #62c462, #57a957);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#57a957));
-  background-image: -webkit-linear-gradient(top, #62c462, #57a957);
-  background-image: -o-linear-gradient(top, #62c462, #57a957);
-  background-image: linear-gradient(to bottom, #62c462, #57a957);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff57a957', GradientType=0);
-}
-.progress-success.progress-striped .bar,
-.progress-striped .bar-success {
-  background-color: #62c462;
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-info .bar,
-.progress .bar-info {
-  background-color: #4bb1cf;
-  background-image: -moz-linear-gradient(top, #5bc0de, #339bb9);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#339bb9));
-  background-image: -webkit-linear-gradient(top, #5bc0de, #339bb9);
-  background-image: -o-linear-gradient(top, #5bc0de, #339bb9);
-  background-image: linear-gradient(to bottom, #5bc0de, #339bb9);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff339bb9', GradientType=0);
-}
-.progress-info.progress-striped .bar,
-.progress-striped .bar-info {
-  background-color: #5bc0de;
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-warning .bar,
-.progress .bar-warning {
-  background-color: #faa732;
-  background-image: -moz-linear-gradient(top, #fbb450, #f89406);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
-  background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
-  background-image: -o-linear-gradient(top, #fbb450, #f89406);
-  background-image: linear-gradient(to bottom, #fbb450, #f89406);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);
-}
-.progress-warning.progress-striped .bar,
-.progress-striped .bar-warning {
-  background-color: #fbb450;
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
 .accordion {
   margin-bottom: 20px;
 }
@@ -4377,108 +4401,6 @@ a.badge:hover {
 .accordion-inner {
   padding: 9px 15px;
   border-top: 1px solid #e5e5e5;
-}
-.carousel {
-  position: relative;
-  margin-bottom: 20px;
-  line-height: 1;
-}
-.carousel-inner {
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-}
-.carousel .item {
-  display: none;
-  position: relative;
-  -webkit-transition: 0.6s ease-in-out left;
-  -moz-transition: 0.6s ease-in-out left;
-  -o-transition: 0.6s ease-in-out left;
-  transition: 0.6s ease-in-out left;
-}
-.carousel .item > img {
-  display: block;
-  line-height: 1;
-}
-.carousel .active,
-.carousel .next,
-.carousel .prev {
-  display: block;
-}
-.carousel .active {
-  left: 0;
-}
-.carousel .next,
-.carousel .prev {
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-.carousel .next {
-  left: 100%;
-}
-.carousel .prev {
-  left: -100%;
-}
-.carousel .next.left,
-.carousel .prev.right {
-  left: 0;
-}
-.carousel .active.left {
-  left: -100%;
-}
-.carousel .active.right {
-  left: 100%;
-}
-.carousel-control {
-  position: absolute;
-  top: 40%;
-  left: 15px;
-  width: 40px;
-  height: 40px;
-  margin-top: -20px;
-  font-size: 60px;
-  font-weight: 100;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #222222;
-  border: 3px solid #ffffff;
-  -webkit-border-radius: 23px;
-  -moz-border-radius: 23px;
-  border-radius: 23px;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
-.carousel-control.right {
-  left: auto;
-  right: 15px;
-}
-.carousel-control:hover {
-  color: #ffffff;
-  text-decoration: none;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
-}
-.carousel-caption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 15px;
-  background: #333333;
-  background: rgba(0, 0, 0, 0.75);
-}
-.carousel-caption h4,
-.carousel-caption p {
-  color: #ffffff;
-  line-height: 20px;
-}
-.carousel-caption h4 {
-  margin: 0 0 5px;
-}
-.carousel-caption p {
-  margin-bottom: 0;
 }
 .hero-unit {
   padding: 60px;
@@ -4515,9 +4437,339 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+/* ===== Custom CSS =========================
+ * This is the added css that could not be 
+ * applied through the default framework 
+ * set up.
+ * ========================================== */
+/* Typeography  
+ * -------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  font-weight: normal;
+}
+/* Blogger body 
+ * -------------------------- */
+/* Removes blogger template birds background image */
+.body-fauxcolumns .cap-top {
+  background: none;
+}
+/* Fixed gap from hidden blogger bar */
+#navbar {
+  display: none;
+}
+/* ===== Page header ==========================================================
+ * Set up for the sites page headers.
+ * This does not include the images, those are in the html but ARE effected by
+ * the <background-size: cover;> style to make it span the whole top. 
+ * ============================================================================ */
+header {
+  height: 200px;
+}
+.header-outer {
+  margin-bottom: 15px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-position: 0% 75%;
+  border-bottom: 10px solid #C05473;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* blogger name logo - Sends it off screen */
+#header-inner {
+  padding-top: 30px;
+  text-indent: -99999px;
+}
+/* ===== Navigation ===========================================================
+ * Navigation using blogger's <.PageList> feature in the blog custumize set up. 
+ * Most of the set up for this should be done in the custom template set up. 
+ * This just adds a few design features that could not be done there. And adds 
+ * the <.affix> set-up for the scrolling navigation feature.
+ *
+ * .selected        - Underlines current navigation page.
+ * :hover           - Adds a border bottom & css3 ease-in-out.
+ * ============================================================================ */
+.tabs-outer {
+  margin-top: 35px;
+  /* moves it down from header per design */
+
+}
+.tabs-inner .PageList .widget-content {
+  height: 30px;
+}
+/* fixes border hover changing it's height */
+.tabs-inner .widget li.selected a,
+.tabs-inner .widget li a:hover {
+  border-bottom: 1px solid;
+}
+.tabs-inner .widget li a:hover {
+  -webkit-transition: ease-in-out 0.25s;
+  -moz-transition: ease-in-out 0.25s;
+  transition: ease-in-out 0.25s;
+}
+/* settings for navigation while scrolling */
+#PageList1 {
+  z-index: 10000;
+}
+/* IE fix for z-index */
+#PageList1 .affix {
+  width: 100%;
+  top: 2px;
+  left: 0;
+  padding: 20px 5px;
+  background: white;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.03);
+}
+#PageList1 .affix ul {
+  margin: 0 auto;
+  width: 900px;
+}
+/* search */
+#CustomSearch1 {
+  margin-top: -25px;
+  margin-left: 610px;
+  width: 300px;
+  z-index: 99999;
+}
+#CustomSearch1 input {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* ----- Hero-units -----
+ * --------------------- */
+.albums-section.hero-unit {
+  height: 500px;
+  color: white;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);
+  background: url(https://lh6.googleusercontent.com/-DIvV3SBtTtQ/UN-6UUbP9wI/AAAAAAAAMp0/Db3pR-ikP9U/s960/photo.jpg) left bottom no-repeat;
+}
+.hero-unit h1 {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);
+}
+.spot-albums-header,
+.singles-header {
+  margin-bottom: 20px;
+}
+/* tabs */
+.hero-unit .nav-tabs {
+  border-bottom: 1px solid #DDD;
+}
+#myTab {
+  padding-top: 0px;
+  margin-top: -50px;
+  margin-bottom: 40px;
+}
+#myTab a {
+  padding-top: 8px;
+  margin-bottom: -3px;
+  color: #141414;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+#myTab > .active > a {
+  border-color: #DDD;
+}
+.tab-content {
+  height: 520px;
+}
+/* spotlight button icons */
+.btn.btn-large.btn-success [class^="icon-"] {
+  margin-top: 5px;
+}
+/* Singles Unit
+ * --------------- */
+.singles-section {
+  /*background: url(https://lh4.googleusercontent.com/-O2hJVzLNJeI/UN-CaVClDUI/AAAAAAAAMpQ/syTz5F_5hHE/s960/poll-stencil-dark-overlay.png) left -250px no-repeat;*/
+
+}
+/* ===== Social Nets ========
+ * ========================== */
+.social-icons {
+  margin-left: 0px;
+}
+.social-icons h2 {
+  font-size: 20px;
+  line-height: 1;
+}
+.social-icons .divider {
+  border-left: 1px dotted;
+  height: 30px;
+}
+.social-icons .breadcrumb {
+  margin-top: 5px;
+  background: transparent;
+}
+.social-icons .breadcrumb li {
+  border-top: 0px transparent;
+  margin-right: 10px;
+}
+.social-icons img {
+  opacity: .5;
+}
+.social-icons img:hover {
+  opacity: 1;
+}
+/* ==== Sign in forms =========== 
+ * ============================== */
+.mc-field-group.input-prepend {
+  margin-left: 10px;
+}
+.asterisk {
+  color: #C60;
+  font-weight: bold;
+}
+/* ===== Posts ==============
+ * ========================== */
+.status-msg-wrap {
+  display: none;
+}
+/* remove label posts message */
+h3.post-title a {
+  color: #434343;
+}
+/* ===== Sections ===============
+ * ============================== */
+.thumbnail {
+  background: #FFF;
+}
+/* ===== Albums page =====
+ * ======================= */
+.albums-players-grande {
+  margin-bottom: 25px;
+}
+/* Album descriptions */
+.albums-players-grande .album-description {
+  width: 270px;
+}
+/* ===== Singles page =====
+ * ======================= */
+.single-players-grande {
+  margin-bottom: 25px;
+}
+/* Single descriptions */
+.single-players-grande .single-description {
+  width: 270px;
+}
+/* ===== Photos page ======
+ * ======================== */
+/* photo spacing for the gallery page */
+#my-photos li {
+  width: 176px;
+}
+/* Footer
+ * -------------- */
+.well.well-black {
+  background: black;
+  border-color: #141414;
+}
+/* ===== Feed Boxes =============
+ * ============================ */
+#Feed4 {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  background: black;
+  border-color: #141414;
+}
+#Feed4 blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+.widget ul li,
+.widget #ArchiveList ul.flat li {
+  border-top: 1px dotted #AAA;
+}
+#Feed2_feedItemListDisplay .item-title a,
+#Feed3_feedItemListDisplay .item-title a,
+#Feed4_feedItemListDisplay .item-title a {
+  font-size: 24px;
+  letter-spacing: -0.25px;
+}
+#Feed2_feedItemListDisplay .item-title a::after,
+#Feed3_feedItemListDisplay .item-title a::after,
+#Feed4_feedItemListDisplay .item-title a::after {
+  content: " \00BB";
+  font-weight: normal;
+  font-weight: 300;
+}
+/* Buttons 
+ * --------------- */
+a.btn-info,
+a.btn-inverse {
+  color: #FFF;
+}
+.btn i {
+  margin-top: 2px;
+}
+/* album download button */
+.btn.btn-large.btn-success span {
+  font-weight: bold;
+  color: white;
+}
+.btn.btn-large.btn-success small {
+  color: #B5E786;
+}
+/* mini-buttons with icons alignment fix */
+.btn-mini i {
+  margin-top: 0px;
+}
+/* ===== Albums Page ================
+ * ================================== */
+/* album titles */
+.inline_player #maintext {
+  width: 350px !important;
+}
+/* ===== Footer 
+ * ================================== */
+footer {
+  border-top: 10px solid #141414;
+}
+footer h2 {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);
+}
+/* ===== Added Mobile setting =======
+ * ================================== */
+.mobile .Blog {
+  display: block !important;
+}
+/* shows blog posts on mobile homepage */
+/* mobile nav */
+.mobile #PageList1 {
+  background: salmon;
+  margin-top: -15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.mobile #PageList1_select {
+  margin-top: -10px;
+}
+/* remove scrolling nav from mobile. */
+.mobile #PageList1 .affix {
+  position: static;
+}
+/* removes clear icon that still displays for search field in mobile - 
+ * Found this in the widget editor, which gave me the idea */
+.mobile div.gsc-clear-button {
+  display: none !important;
+}
+/* **end custom css** */
 /* ===== Tom Ray Rules! ======================
  * =========================================== */
-/* Nav bar */
 .navbar {
   margin-top: 20px;
 }
