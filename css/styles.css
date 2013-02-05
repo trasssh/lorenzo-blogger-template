@@ -4442,7 +4442,7 @@ a.badge:hover {
  * applied through the default framework 
  * set up.
  * ========================================== */
-/* Type 
+/* Typeography  
  * -------------------------- */
 h1,
 h2,
@@ -4463,26 +4463,27 @@ h6 {
 #navbar {
   display: none;
 }
-/* ===== Page header ========================
+/* ===== Page header ==========================================================
  * Set up for the sites page headers.
- * This does not include the images.
- * ========================================== */
+ * This does not include the images, those are in the html but ARE effected by
+ * the <background-size: cover;> style to make it span the whole top. 
+ * ============================================================================ */
 header {
   height: 200px;
 }
 .header-outer {
+  margin-bottom: 15px;
   height: 100%;
   width: 100%;
-  margin-bottom: 15px;
+  overflow: hidden;
+  background-position: 0% 75%;
+  border-bottom: 10px solid #C05473;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: 0% 75%;
-  overflow: hidden;
-  border-bottom: 10px solid #C05473;
 }
-/* Name logo */
+/* blogger name logo - Sends it off screen */
 #header-inner {
   padding-top: 30px;
   text-indent: -99999px;
