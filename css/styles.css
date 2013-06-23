@@ -4517,7 +4517,7 @@ header {
 }
 /* settings for navigation while scrolling */
 #PageList1 {
-  _z-index: 10000;
+  z-index: 9;
 }
 /* IE fix for z-index */
 #PageList1 .affix {
