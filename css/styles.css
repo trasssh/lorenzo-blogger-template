@@ -2237,7 +2237,7 @@ table [class*=span],
 .open {
   *z-index: 1000;
 }
-.open  > .dropdown-menu {
+.open > .dropdown-menu {
   display: block;
 }
 .pull-right > .dropdown-menu {
@@ -4517,7 +4517,7 @@ header {
 }
 /* settings for navigation while scrolling */
 #PageList1 {
-  z-index: 10000;
+  _z-index: 10000;
 }
 /* IE fix for z-index */
 #PageList1 .affix {
